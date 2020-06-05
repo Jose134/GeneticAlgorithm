@@ -119,7 +119,7 @@ namespace GA {
                 }
             }
 
-            if (rand() % mutationRate < 10) {
+            if (rand() % 101 < mutationRate) {
                 mutate(str);
             }
 
